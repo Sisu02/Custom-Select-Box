@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Custom select box </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<div class="container">
+			<div class="box1">
+				<p>Lanaguage</p>
+				<img src="image/bottom arrow.png" alt="arrow" srcset="" onclick="openmodal()">
+			</div>
+			<div class="language" id="language">
+				<ul>
+					<li class="english" onclick="changelanguage('english')">English</li>
+					<li class="french" onclick="changelanguage('french')">French</li>
+					<li class="polish" onclick="changelanguage('polish')">Polish</li>
+				</ul>
+				<input type="hidden" name="language" id="languageval" value="">
+			</div>
+
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
